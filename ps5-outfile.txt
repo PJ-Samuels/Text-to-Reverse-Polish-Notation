@@ -1,0 +1,23 @@
+infix: 4 + 8 * 3
+postfix: 4 8 3 *+`½:šü
+result: 
+infix: ( 4 + 8 ) * 3
+postfix: 4 8 +3 *
+result: 
+infix: 6 + 9 + 4 ^ 2
+postfix: 6 9 +4 2 ^+šü
+result: 
+infix: 46 + ( 8 * 4 ) / 2
+postfix: 468 4 *2 /+
+result: 
+infix: 7 ^ 2 * ( 25 + 10 / 5 ) - 13
+postfix: 7 2 ^25 10 5 /+*13 -
+result: 
+infix: ( 18 / 3 ) ^ 2 + ( ( 13 + 7 ) * 5 ^ 2 )
+postfix: 18 3 /2 ^13 7 +5 2 ^*+
+result: 
+infix: ( 18 / 3 ) ^ 2 + ( ( 13 + 7 ) ) * 5 ^ 2 )
+postfix: 18 3 /2 ^13 7 +5 2 ^*+
+result: 
+infix: ( 18 / 3 ) ^ 2 + ( ( 13 + 7 ) * 5 ? 2 )postfix: 18 3 /2 ^13 7 +5 2 ^*+
+result: 
